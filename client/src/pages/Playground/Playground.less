@@ -1,0 +1,42 @@
+.Playground{
+    height: 100vh;
+    .logo{
+        background-image: url('../../assets/images/logo.svg');
+        position: relative;
+        background-repeat: no-repeat;
+        float: left;
+        width: 113px;
+        height: 41px;
+        margin: 4px 3em;
+        background-size: contain;
+        margin-top: 2px;
+    }
+
+    .ant-page-header{
+        .ant-page-header-content{
+            padding: 0;
+            margin-top: 10px;
+            .ant-layout-content{
+                min-height: calc(100vh - 138px);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    .sketch-picker{
+        position: absolute;
+        margin: 2em 2.5em;
+        bottom: 0;
+        right: 0;
+    }
+
+    .affix-helper{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        margin: 2em 2.5em;
+        z-index: 9999;
+    }
+}
